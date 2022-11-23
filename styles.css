@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    border: none;  
+
+}
+html, body, main, header{
+    /* display: flexbox; */
+    width: 1400px;
+}
+
+.flexboxcontainer{
+    background-color: white;
+    width: 1200px;    
+    height: 100%;
+    border: 2px solid white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center; 
+    flex-wrap: wrap;
+     margin-left: 240px;  
+     margin-top: 30px;
+
+}
+header{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow:column;
+    flex-wrap: wrap;
+    position: relative;
+    /* padding-top: 10px; */
+    padding: 100px;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-left: 50px; */
+    align-items: flex-end;
+}
+.nav2{
+    position: absolute;
+     padding-top: 480px; 
+     padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+   font-size: large;    
+}
+.nav2 a{
+    padding: 10px;
+}
+.search{
+    border-bottom: 2px double black;
+    width: 40px; 
+    padding: 0 100px 0 0px;
+    /* align-items: flex-start; */
+    right: 70px;
+    margin-right: 10px; 
+    
+}
+.red{
+    color: rgb(243, 69, 11);
+}
+.search::placeholder{
+    color: black;
+    font-weight: 100;
+}
+p{
+    font-size: x-large;
+    text-transform: capitalize;
+    text-align: center;
+}
+div p{
+    text-transform: capitalize;
+    font-size: medium;
+}
+
+.div__container{ 
+padding: 30px; 
+width: 200px; 
+flex-wrap: wrap; 
+margin:10px; 
+
+}
+ h4{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+h2, h3{
+    margin-left: 700px;
+}
+h2{
+    padding-left: 35px;
+}
+div img{ 
+    width: 200px;  
+    height: 250px;
+    object-fit: cover;
+    /* justify-content: center; */
+} 
+ .footerd{
+    width: 500px;
+    display: flex;
+    margin: 30px;
+    margin-left: 620px;
+    
+ }  
+span{
+    padding-right: 15px;
+    margin-right: 10px;
+}
+ a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+ }
+ li{
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+ }
+ footer p{
+   justify-content: center;
+   padding: 2px;
+   font-size:larger;
+   text-transform: capitalize;
+   margin: 5px;
+ }
+  
+  
+ 
+ 
+    
+    
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
